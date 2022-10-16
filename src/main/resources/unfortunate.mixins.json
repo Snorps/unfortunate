@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.snorps.unfortunate.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"refmap": "unfortunate.refmap.json",
+	"mixins": [
+		"FortuneEnchantmentMixin",
+		"EnchantmentMixin",
+        "ApplyBonusCountMixin"
+	],
+	"client": [
+	],
+	"minVersion": "0.8"
+}
